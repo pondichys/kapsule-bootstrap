@@ -15,7 +15,7 @@ spec:
     helm:
       parameters:
       - name:  ingressRoute.dashboard.enabled
-        value: false
+        value: "false"
       valueFiles:
       - values.yaml
     repoURL: https://helm.traefik.io/traefik
