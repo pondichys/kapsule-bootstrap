@@ -11,7 +11,7 @@ spec:
     server: {{ .Values.cluster }}
   project: {{ .Values.project }}
   source:
-    chart: traefik
+    chart: cert-manager
     helm:
       parameters:
       - name:  installCRDs
